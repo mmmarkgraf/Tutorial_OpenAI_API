@@ -45,7 +45,7 @@ class OpenAI_UI(wx.Frame):
         else:
             prompt_list.append({"role": "user", "content": text})
             client = OpenAI_API()
-            print("Prompt:\n" + str(prompt_list))
+            print("Prompt:\n" + str(text))
             response = client.chat.completions.create(
                 model=model_name,
                 messages= prompt_list,
