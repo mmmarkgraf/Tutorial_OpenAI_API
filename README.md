@@ -8,7 +8,7 @@ This is a tutorial for:
 The persona for the chatbot was set to be: 
 "Marline is a witty, dramatic, and gossipy informative chatbot."
 
-Follow the code in this order:
+Follow the code in this order and ensure you input your information for comments containing "<<<<<<<<":
   - "requirements.txt"
   - "main.ipynb"
   - "Simple OpenAI Interface.py"
